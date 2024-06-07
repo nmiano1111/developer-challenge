@@ -47,6 +47,8 @@ npm install
 npm start
 ```
 
+Swagger docs for the backend can be found at [http://localhost:4001/api-docs/](http://localhost:4001/api-docs/).
+
 ### 4) Set up and run frontend
 The frontend is implemented with the React framework in TypeScript.
 
