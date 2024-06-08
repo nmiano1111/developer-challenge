@@ -40,6 +40,12 @@ npx hardhat run initdb/deploy.ts --network firefly
 The backend is a fairly straightforward web server implemented in NodeJS, using the Express web library.
 The language used is TypeScript. It uses Postgres for its storage.
 
+First, run migrations. This can be done with the following command:
+
+```bash
+npx knex migrate:latest
+```
+
 To run, navigate to `./backend` and execute the following:
 
 ```bash
